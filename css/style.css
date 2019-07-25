@@ -1,0 +1,129 @@
+body{
+    background-image: url(../img/cutlery.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #532827;
+    font-family:sans-serif;
+}
+
+#container{
+    width: 400px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #dcdde1;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 15px 7px #222;
+    border-radius: 5px;
+}
+
+h1{
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #ddd;
+    text-transform: uppercase;
+}
+
+form{
+    text-align: left;
+}
+
+form label{
+    display: block;
+    padding: 25px 0;
+    font-weight: bold;
+}
+
+form input,
+form select{
+    padding: 8px;
+    margin: 10px 0;
+}
+
+form input[type="text"]{
+    width: 90px;
+}
+
+button{
+    background-color: #eb3b5a;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 5px #333;
+    font-size: 22px;
+    padding: 20px 30px;
+}
+
+button:hover{
+    background-color: #f53b57;
+    border-bottom-color: #222;
+}
+
+button:active{
+    position:relative;
+    top: 1px;
+    box-shadow: 0 0 10px maroon;
+}
+
+#calculate {
+    letter-spacing: 1.5px;
+}
+
+#totalTipInr{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+}
+
+#totalTipInr:before{
+    content: "Tip Amount";
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+}
+
+#totalTipInr sup1{
+    font-size: 24px;
+    top: -18px;
+}
+
+#totalTipInr small{
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+/*total tip dollar*/
+#totalTipDollar{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+}
+
+#totalTipDollar:before{
+    content: "Tip Amount";
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+}
+
+#totalTipDollar sup2{
+    font-size: 24px;
+    top: -18px;
+}
+
+#totalTipDollar small{
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TIP CALCULATOR</title>
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1>Tip Calculator</h1>
+            <div id="calculator">
+            <form>
+                <label>How much was your bill?<br>
+                   <select id="currency">
+                       <option value="Currency">--Currency--</option>
+                       <option value="inr">₹</option>
+                       <option value="dollar">$</option>
+                   </select>
+                    <input type="text" id="billAmount">
+                </label>
+                <label>How was your service?
+                    <select id="serviceQuality">
+                        <option disabled selected>--Choose-option-value--</option>
+                        <option value="0.3">30% - Outstanding</option>
+                        <option value="0.2">20% - Good</option>
+                        <option value="0.15">15% - It was Ok</option>
+                        <option value="0.1">10% - Terrible</option>
+                    </select>
+                </label>
+                <label> How many people are sharing the Bill?<br>
+                    Peoples :- &nbsp;<input type="text" id="totalPeople">
+                </label>
+                <button type="button" id="calculate">CALCULATE</button>
+            </form>
+            </div>
+            <div id="totalTipInr">
+                <sup id="sup1">₹</sup><span id="tip1">0.00</span>
+                <small id="each1">each</small>
+            </div>
+            <div id="totalTipDollar">
+                <sup id="sup2">$</sup><span id="tip2">0.00</span>
+                <small id="each2">each</small>
+            </div>
+        </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
